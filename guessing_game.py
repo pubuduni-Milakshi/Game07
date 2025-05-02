@@ -20,3 +20,18 @@ while True:
     print("Too low!") 
 elif guess > number: 
     print("Too high!") 
+
+#third
+while True:
+    number = random.randint(1, 100)
+    guess = int(input("Guess a number between 1 and 100: "))
+
+    if guess == number:
+        print("You win!")
+    elif guess < number:
+        print("Too low!")
+    else:
+        print("Too high!")
+
+    if input("Play again? (y/n): ").lower() != 'y':
+        break
