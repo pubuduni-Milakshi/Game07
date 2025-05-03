@@ -1,3 +1,6 @@
+#Milakshi - Create the project and added starter code
+
+#Kisuri - Changed the range 10 to 100
 #import random begininng the code
 import random 
 number = random.randint(1, 100) 
@@ -9,20 +12,20 @@ else:
 print(f"Wrong! The number was {number}") 
 
 
-#Added while  loop
+#Apoorwa - Added while  loop
 while True:
  # (paste existing code here)
  print("Play again? (y/n)")
  if input().lower() != 'y':
  break
 
-#added if condition
+#Sashini - added if condition
  if guess < number: 
     print("Too low!") 
 elif guess > number: 
     print("Too high!") 
 
-#third
+#Malki -third
 while True:
     number = random.randint(1, 10)
     guess = int(input("Guess a number between 1 and 10: "))
